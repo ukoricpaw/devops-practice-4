@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="2.201">
+  <testsuite name="Unit tests: parseCsvToJson" errors="0" failures="0" skipped="0" timestamp="2026-03-01T14:09:39" time="1.98" tests="6">
+    <testcase classname="Unit tests: parseCsvToJson 1. Parses valid CSV correctly" name="Unit tests: parseCsvToJson 1. Parses valid CSV correctly" time="0.011">
+    </testcase>
+    <testcase classname="Unit tests: parseCsvToJson 2. Returns empty array for CSV with only headers" name="Unit tests: parseCsvToJson 2. Returns empty array for CSV with only headers" time="0.002">
+    </testcase>
+    <testcase classname="Unit tests: parseCsvToJson 3. Throws error if file does not exist (negative)" name="Unit tests: parseCsvToJson 3. Throws error if file does not exist (negative)" time="0.028">
+    </testcase>
+    <testcase classname="Integration tests: CLI 4. CLI creates JSON file with correct content" name="Integration tests: CLI 4. CLI creates JSON file with correct content" time="0.202">
+    </testcase>
+    <testcase classname="Integration tests: CLI 5. CLI uses default output name if not specified" name="Integration tests: CLI 5. CLI uses default output name if not specified" time="0.127">
+    </testcase>
+    <testcase classname="Integration tests: CLI 6. CLI exits with error if input file missing (negative)" name="Integration tests: CLI 6. CLI exits with error if input file missing (negative)" time="0.113">
+    </testcase>
+  </testsuite>
+</testsuites>
