@@ -4,7 +4,12 @@
   "description": "Simple CLI application that parses CSV file into JSON.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --reporters=default --reporters=jest-junit"
+  },
+  "jest-junit": {
+    "outputDirectory": "./reports",
+    "outputName": "jest-report.xml"
   },
   "keywords": [],
   "author": "",
