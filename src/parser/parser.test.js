@@ -13,7 +13,7 @@ beforeAll(() => {
     csvPath,
     `name,age
 John,30
-Jane,25`,
+Jane,20`,
   );
 
   fs.writeFileSync(emptyCsvPath, `name,age`);
