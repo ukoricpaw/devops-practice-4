@@ -15,3 +15,8 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm run test:ci
+      - name: Upload JUnit test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: junit-report
+          path: reports/jest-report.xml
